@@ -49,9 +49,9 @@ The endpoint returns a JSON array of players. Lookup is by `minecraftUsername`:
   "overallTier": "Novice"
 }
 
-
-# Project layout
 ```
+# Project layout
+
 src/main/java/com/pojavtiers/tagger/
   PojavTierTaggerClient.java   # entrypoint: keybind, commands, refresh ticks
   PojavTierManager.java        # API fetch, cache, badge/text building
