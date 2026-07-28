@@ -32,7 +32,7 @@ public final class PortalTierManager {
     public static final Logger LOGGER = LoggerFactory.getLogger("PojavTierTagger");
     public static final Identifier ICON_FONT = Identifier.of("portaltiertagger", "icons");
 
-    private static final String API_URL = "http://78.154.103.17:14264/api/overall";
+    private static final String API_URL = "https://mmpvp-production.up.railway.app/api/rankings";
 
     private static final ExecutorService EXEC = Executors.newSingleThreadExecutor(r -> {
         Thread t = new Thread(r, "PojavTierTagger-fetch");
